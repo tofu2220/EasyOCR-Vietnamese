@@ -5,13 +5,13 @@ experiment_name: 'en_filtered'
 train_data: 'all_data'
 valid_data: 'all_data/en_val'
 manualSeed: 1111
-workers: 6
-batch_size: 32 #32
-num_iter: 300000
-valInterval: 20000
-saved_model: '' #'saved_models/en_filtered/iter_300000.pth'
+workers: 1
+batch_size: 10 #32
+num_iter: 4 #300000
+valInterval: 4
+saved_model: 'saved_models/en_filtered/iter_300000.pth' #'saved_models/en_filtered/iter_300000.pth'
 FT: False
-optim: False # default is Adadelta
+optim: False # default is Adadelta 
 lr: 1.
 beta1: 0.9
 rho: 0.95
@@ -21,9 +21,9 @@ grad_clip: 5
 select_data: 'en_train_filtered' # this is dataset folder in train_data
 batch_ratio: '1' 
 total_data_usage_ratio: 1.0
-batch_max_length: 34 
+batch_max_length: 10
 imgH: 64
-imgW: 600
+imgW: 433
 rgb: False
 contrast_adjust: False
 sensitive: True
