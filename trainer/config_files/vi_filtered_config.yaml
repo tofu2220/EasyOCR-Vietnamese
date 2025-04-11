@@ -26,7 +26,7 @@ imgH: 64
 imgW: 433
 rgb: False
 contrast_adjust: False
-sensitive: False  # Case sensitivity, useful for Vietnamese tones
+sensitive: True  # Case sensitivity, useful for Vietnamese tones
 PAD: True
 contrast_adjust: 0.0
 data_filtering_off: True
