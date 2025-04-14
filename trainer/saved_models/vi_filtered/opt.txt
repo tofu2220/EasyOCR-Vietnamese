@@ -228,3 +228,187 @@ freeze_SequenceModeling: False
 character: 0123456789!"#$%&'()*+,-./:;<=>?@[\]^_`{|}~ € AĂÂBCDĐEÊFGHIJKLMNOÔƠPQRSTUƯVXYZaăâbcdđeêfghijklmnoôơpqrstuưvxyzàáéíòõùúĩũạầậếễỉịọốồộờởứựw
 num_class: 136
 ---------------------------------------
+------------ Options -------------
+number: 0123456789
+symbol: !"#$%&'()*+,-./:;<=>?@[\]^_`{|}~ € 
+lang_char: AĂÂBCDĐEÊFGHIJKLMNOÔƠPQRSTUƯVXYZaăâbcdđeêfghijklmnoôơpqrstuưvxyzàáéíòõùúĩũạầậếễỉịọốồộờởứựw
+experiment_name: vi_filtered
+train_data: all_data
+valid_data: all_data/vi_val
+manualSeed: 1111
+workers: 1
+batch_size: 10
+num_iter: 4
+valInterval: 4
+saved_model: saved_models/vi_filtered/iter_300000_adjusted.pth
+FT: True
+optim: False
+lr: 0.0001
+beta1: 0.9
+rho: 0.95
+eps: 1e-08
+grad_clip: 5
+select_data: ['vi_train_filtered']
+batch_ratio: ['1']
+total_data_usage_ratio: 1.0
+batch_max_length: 100
+imgH: 64
+imgW: 433
+rgb: False
+contrast_adjust: 0.0
+sensitive: True
+PAD: True
+data_filtering_off: True
+Transformation: None
+FeatureExtraction: VGG
+SequenceModeling: BiLSTM
+Prediction: CTC
+num_fiducial: 20
+input_channel: 1
+output_channel: 256
+hidden_size: 256
+decode: greedy
+new_prediction: False
+freeze_FeatureFxtraction: False
+freeze_SequenceModeling: False
+character: 0123456789!"#$%&'()*+,-./:;<=>?@[\]^_`{|}~ € AĂÂBCDĐEÊFGHIJKLMNOÔƠPQRSTUƯVXYZaăâbcdđeêfghijklmnoôơpqrstuưvxyzàáéíòõùúĩũạầậếễỉịọốồộờởứựw
+num_class: 136
+---------------------------------------
+------------ Options -------------
+number: 0123456789
+symbol: !"#$%&'()*+,-./:;<=>?@[\]^_`{|}~ € 
+lang_char: AĂÂBCDĐEÊFGHIJKLMNOÔƠPQRSTUƯVXYZaăâbcdđeêfghijklmnoôơpqrstuưvxyzàáéíòõùúĩũạầậếễỉịọốồộờởứựw
+experiment_name: vi_filtered
+train_data: all_data
+valid_data: all_data/vi_val
+manualSeed: 1111
+workers: 1
+batch_size: 10
+num_iter: 4
+valInterval: 4
+saved_model: saved_models/vi_filtered/iter_300000_adjusted.pth
+FT: True
+optim: False
+lr: 0.0001
+beta1: 0.9
+rho: 0.95
+eps: 1e-08
+grad_clip: 5
+select_data: ['vi_train_filtered']
+batch_ratio: ['1']
+total_data_usage_ratio: 1.0
+batch_max_length: 100
+imgH: 64
+imgW: 433
+rgb: False
+contrast_adjust: 0.0
+sensitive: True
+PAD: True
+data_filtering_off: True
+Transformation: None
+FeatureExtraction: VGG
+SequenceModeling: BiLSTM
+Prediction: CTC
+num_fiducial: 20
+input_channel: 1
+output_channel: 256
+hidden_size: 256
+decode: greedy
+new_prediction: False
+freeze_FeatureFxtraction: False
+freeze_SequenceModeling: False
+character: 0123456789!"#$%&'()*+,-./:;<=>?@[\]^_`{|}~ € AĂÂBCDĐEÊFGHIJKLMNOÔƠPQRSTUƯVXYZaăâbcdđeêfghijklmnoôơpqrstuưvxyzàáéíòõùúĩũạầậếễỉịọốồộờởứựw
+num_class: 136
+---------------------------------------
+------------ Options -------------
+number: 0123456789
+symbol: !"#$%&'()*+,-./:;<=>?@[\]^_`{|}~ € 
+lang_char: AĂÂBCDĐEÊFGHIJKLMNOÔƠPQRSTUƯVXYZaăâbcdđeêfghijklmnoôơpqrstuưvxyzàáéíòõùúĩũạầậếễỉịọốồộờởứựw
+experiment_name: vi_filtered
+train_data: all_data
+valid_data: all_data/vi_val
+manualSeed: 1111
+workers: 1
+batch_size: 10
+num_iter: 4
+valInterval: 4
+saved_model: saved_models/vi_filtered/iter_300000_adjusted.pth
+FT: True
+optim: False
+lr: 0.0001
+beta1: 0.9
+rho: 0.95
+eps: 1e-08
+grad_clip: 5
+select_data: ['vi_train_filtered']
+batch_ratio: ['1']
+total_data_usage_ratio: 1.0
+batch_max_length: 100
+imgH: 64
+imgW: 433
+rgb: False
+contrast_adjust: 0.0
+sensitive: True
+PAD: True
+data_filtering_off: True
+Transformation: None
+FeatureExtraction: VGG
+SequenceModeling: BiLSTM
+Prediction: CTC
+num_fiducial: 20
+input_channel: 1
+output_channel: 256
+hidden_size: 256
+decode: greedy
+new_prediction: False
+freeze_FeatureFxtraction: False
+freeze_SequenceModeling: False
+character: 0123456789!"#$%&'()*+,-./:;<=>?@[\]^_`{|}~ € AĂÂBCDĐEÊFGHIJKLMNOÔƠPQRSTUƯVXYZaăâbcdđeêfghijklmnoôơpqrstuưvxyzàáéíòõùúĩũạầậếễỉịọốồộờởứựw
+num_class: 136
+---------------------------------------
+------------ Options -------------
+number: 0123456789
+symbol: !"#$%&'()*+,-./:;<=>?@[\]^_`{|}~ € 
+lang_char: AĂÂBCDĐEÊFGHIJKLMNOÔƠPQRSTUƯVXYZaăâbcdđeêfghijklmnoôơpqrstuưvxyzàáéíòõùúĩũạầậếễỉịọốồộờởứựw
+experiment_name: vi_filtered
+train_data: all_data
+valid_data: all_data/vi_val
+manualSeed: 1111
+workers: 1
+batch_size: 10
+num_iter: 4
+valInterval: 4
+saved_model: saved_models/vi_filtered/iter_300000_adjusted.pth
+FT: True
+optim: False
+lr: 0.0001
+beta1: 0.9
+rho: 0.95
+eps: 1e-08
+grad_clip: 5
+select_data: ['vi_train_filtered']
+batch_ratio: ['1']
+total_data_usage_ratio: 1.0
+batch_max_length: 100
+imgH: 64
+imgW: 433
+rgb: False
+contrast_adjust: 0.0
+sensitive: True
+PAD: True
+data_filtering_off: True
+Transformation: None
+FeatureExtraction: VGG
+SequenceModeling: BiLSTM
+Prediction: CTC
+num_fiducial: 20
+input_channel: 1
+output_channel: 256
+hidden_size: 256
+decode: greedy
+new_prediction: False
+freeze_FeatureFxtraction: False
+freeze_SequenceModeling: False
+character: 0123456789!"#$%&'()*+,-./:;<=>?@[\]^_`{|}~ € AĂÂBCDĐEÊFGHIJKLMNOÔƠPQRSTUƯVXYZaăâbcdđeêfghijklmnoôơpqrstuưvxyzàáéíòõùúĩũạầậếễỉịọốồộờởứựw
+num_class: 136
+---------------------------------------
